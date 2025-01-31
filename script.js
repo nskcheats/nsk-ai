@@ -6,7 +6,7 @@ document.getElementById('invoke-api').addEventListener('click', function() {
         method: 'GET',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer YOUR_GITHUB_TOKEN' // Replace with your GitHub token
+            'Authorization': 'Bearer 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' // Replace with your GitHub token
         }
     })
     .then(response => response.json())
